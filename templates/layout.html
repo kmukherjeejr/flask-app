@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="icon" type="image/png" href="https://www.clipartmax.com/png/full/147-1476079_logo-clip-art-r-logo-png-hd.png"/>
+    </head>
+    <body>
+        <header class="header">
+            <img src="https://www.clipartmax.com/png/full/147-1476079_logo-clip-art-r-logo-png-hd.png" alt="Rectify - Logo" title="Rectify — New Platform for your Favourite Songs" class="banner">
+            <nav><ul class="menu">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('aboutus') }}">About Us</a></li>
+                <li><a href="{{ url_for('contactus') }}">Contact Us</a></li>
+            </ul></nav>
+        </header>
+        <div class="container">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+</html>

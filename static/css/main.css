@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Contents for all */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Assistant', sans-serif;
+    background-color: #313131;
+    font-weight: 300;
+}
+
+.headings {
+    font-weight: 800;
+    font-size: 80px;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Layout styling */
+
+.header {
+    display: flex;
+    position: sticky;
+    height: 15vh;
+    width: 100%;
+    background-color: #212121;
+    color: white;
+}
+
+.banner {
+    width: auto;
+    height: 9vh;
+    padding-top: 3vh;
+    padding-left: 10vw;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    padding-right: 10vw;
+    padding-top: 3vh;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    margin: 1vw;
+    color: white;
+    transition: 0.3s;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: #FF4040;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Home styling */
+
+.home {
+    padding-top: 15vh;
+    color: #ff4040;
+    width: 80%;
+    justify-content: center;
+}
+
+.headings {
+    font-weight: 800;
+    font-size: 80px;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    text-align: center;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.home-buttons button {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 15vw;
+    height: 8vh;
+    border-radius: 64px;
+    border: none;
+    background-color: white;
+    color: #212121;
+    transition: 0.3s;
+}
+
+.home-buttons button:hover {
+    background-color: #ff4040;
+    color: white;
+}
+
+.home p {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+/* About us styling */
+
+.about {
+    padding-top: 15vh;
+    color: #ff4040;
+    width: 80%;
+    justify-content: center;
+}
+
+.about .content section p {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+/* Contact us Styling */
+
+.contact {
+    padding-top: 15vh;
+    color: #ff4040;
+    width: 80%;
+    justify-content: center;
+}
+
+.contact div p{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.contact div form {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+.contact div form input {
+    margin-left: 2vw;
+    border: none;
+    border-radius: 64px;
+    margin: 5px 10px;
+    font-size: 18px;
+    width: 20vw;
+    padding: 5px 10px;
+}
+
+.submit-btn {
+    margin: 0px!important;
+    padding: 10px 10px!important;
+    margin-top: 2vh!important;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: white;
+    color: #212121;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #ff4040;
+    color: white;
+}
