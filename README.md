@@ -1,4 +1,4 @@
-# flask-app
+# Rectify - A Demo Flask App
 A demo flask app for practice.
 
 ## How to run:
