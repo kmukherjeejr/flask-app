@@ -177,3 +177,57 @@ body {
     background-color: #ff4040;
     color: white;
 }
+
+/* Contact Details styling */
+
+.contactdetails {
+    padding-top: 15vh;
+    color: #ff4040;
+    width: 80%;
+    justify-content: center;
+}
+
+.contactdetails div p{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.tablediv{
+    display: flex;
+    justify-content: center;
+}
+
+.dettable {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    border-color: #ff4040;
+    border-collapse: collapse;
+}
+
+.dettable th {
+    color: #ff4040;
+    text-transform: capitalize;
+}
+
+.back {
+    margin: 0px!important;
+    font-size: 20px!important;
+    padding: 10px 30px!important;
+    margin-top: 2vh!important;
+    font-weight: 700!important;
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    border-radius: 64px;
+    color: #212121;
+    transition: 0.3s;
+}
+
+.back:hover {
+    background-color: #ff4040;
+    color: white;
+}

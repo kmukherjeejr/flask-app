@@ -14,13 +14,14 @@
         <div class="home">
             <h1 class="headings">WELCOME TO RECTIFY</h1>
             <div class="home-buttons">
-                <button>Sign In</button>
-                <button>Try for Free</button>
+                <button onclick="SignIn()">Sign In</button>
+                <button onclick="trial()">Try for Free</button>
             </div>
             <p>
                 Your next favourite music streaming platform is finally here. Subscribe to our premium plans for just $9.99 / year. Or try for free for 7 days. No commitment. No hidden charges.
             </p>
         </div>
+        <script src="{{ url_for('static', filename='js/home.js') }}"></script>
     {% endblock %}
     </body>
 </html>
