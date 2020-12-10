@@ -15,7 +15,7 @@ class BasicTestCase(unittest.TestCase):
         response = tester.get('/about-us', content_type='html/text')
         self.assertEqual(response.status_code, 200)
 
-    def test_contactus(self):
+    def test_contact_us(self):
         tester = app.test_client(self)
         response = tester.get('/contact-us', content_type='html/text')
         self.assertEqual(response.status_code, 200)
