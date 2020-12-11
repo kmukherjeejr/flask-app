@@ -1,6 +1,6 @@
 import unittest
 
-from app import app
+from newapp.app import app
 
 
 class BasicTestCase(unittest.TestCase):
