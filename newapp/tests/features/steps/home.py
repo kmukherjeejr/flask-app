@@ -27,10 +27,10 @@ def step_impl(context):
                                                 'confirmation popup to appear.')
 
         alert = context.browser.switch_to.alert
+        assert alert.text == "You are trying to sign in!"
         alert.accept()
-        print("Success")
     except TimeoutException:
-        print("No Success")
+        print("Timeout")
 
 
 @when(u'I click on Try for Free')
@@ -46,7 +46,7 @@ def step_impl(context):
                                                 'confirmation popup to appear.')
 
         alert = context.browser.switch_to.alert
+        assert alert.text == "Try for free for 30 days!"
         alert.accept()
-        print("Success")
     except TimeoutException:
-        print("No Success")
+        print("Timeout")
